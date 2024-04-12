@@ -1,0 +1,156 @@
+.logo {
+    margin-bottom: 20px;
+    margin-top: -10px;
+    border: 2px solid black;
+    width: 130px;
+    height: 130px;
+  }
+
+  #movie-header {
+    display: flex;
+    justify-content: center;
+    background: black;
+    opacity: .8;
+    height: 7rem;
+    padding: 1rem;
+  }
+
+  .add-review-container {
+    padding: 10px;
+    width: stretch;
+    height: auto;
+    display: none;
+    background: black;
+    opacity: .8;
+  }
+
+  #add-review-button {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+  }
+
+  #add-review-button:hover {
+    background-color: brown;
+  }
+
+  .review-box-card {
+    border: black solid 2px;
+    box-shadow: 3px 4px grey;
+    margin-bottom: 20px;
+  }
+
+  .review-heading {
+    font-family: sans-serif;
+  }
+
+  .review-box-title {
+    display: flex;
+    justify-content: space-between; 
+  }
+
+  .review-text {
+    font-family: sans-serif;
+  }
+
+  .review-box-info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .toggle-mode {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    padding: 10px;
+  }
+
+  #toggle-dark-mode {
+    background-color: black;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  #toggle-dark-mode:hover {
+    transform: scale(1.2);
+  }
+
+  #like-button {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: red;
+    cursor: pointer;
+    z-index: 9999;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  #like-button:hover {
+    transform: scale(1.2);
+  }
+
+  #like-counter {
+    margin-left: 55%
+  }
+
+  .text-input {
+    border-radius: 2px;
+    height: 15px;
+    width: 15%;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin: 5px;
+  }
+
+  .review-input {
+    border-radius: 2px;
+    height: 25px;
+    width: 50%;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin: 5px;
+  }
+
+  .submit-button {
+    position: relative;
+    background-color: gray;
+    border-radius: 5px;
+    height: 30px;
+    width: max-content;
+    color: white;
+    font-size: 12px;
+    justify-self: center;
+    font-family:sans-serif;
+    margin: 3px;
+  }
+
+  .movie-poster-image {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    width: auto;
+    border: lightgrey solid 2px;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px grey;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .movie-poster-image:hover {
+    transform: scale(1.05);
+  }
+
+  body.dark-mode {
+    background-color: grey;
+    color: white;
+}
+
+.review-box-container {
+  background-color: white;
+  color: black;
+}

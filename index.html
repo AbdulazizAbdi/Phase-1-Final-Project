@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Movie Reviews</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script defer type="text/javascript" src="index.js"></script>
+    </head>
+    <body>
+        <!-- Logo -->
+        <div id="movie-header">
+            <img class="logo" src="assets/Movie Re.png" alt="Movie-reviews-Logo">
+        </div>
+        <!-- Add review dropdown -->
+        <div class="add-review-container">
+            <form class="add-review-form">
+                <label>Add a review</label>
+                <br>
+
+                <input
+                    type="text"
+                    name="movie-poster"
+                    value=""
+                    placeholder="Enter Movie Poster URL..."
+                    class="text-input"
+                />
+                <br>
+                <input
+                    type="text"
+                    name="movie-title"
+                    value=""
+                    placeholder="Enter Movie Title..."
+                    class="text-input"
+                />
+                <br>
+                <input
+                    type="text"
+                    name="movie-rating"
+                    value=""
+                    placeholder="Enter Your Rating..."
+                    class="text-input"
+                />
+                <br>
+                <input
+                    type="text"
+                    name="movie-release-date"
+                    value=""
+                    placeholder="Enter Movie Release Date..."
+                    class="text-input"
+                />
+                <br>
+                <input
+                    type="text"
+                    name="movie-director"
+                    value=""
+                    placeholder="Enter Director's Name..."
+                    class="text-input"
+                />
+                <br>
+                <input
+                    type="text"
+                    name="movie-review"
+                    value=""
+                    placeholder="Enter Your Review..."
+                    class="review-input"
+                />
+                <br>
+                <input
+                    type="submit"
+                    name="submit"
+                    value="Submit"
+                    class="submit-button"
+                />
+
+            </form>
+
+        </div>
+
+        <h3 class="review-heading">
+            Add a review: <button id="add-review-button">+</button>
+        </h3>
+        <!-- search -->
+        <!-- review card -->
+        <div class="review-box-container">
+
+        </div>
+
+        <!-- dark mode button -->
+        <div class="toggle-mode">
+            <!--toggle dark modes-->
+            <button id="toggle-dark-mode">Dark Mode</button>
+        </div>
+    </body>
+</html>
