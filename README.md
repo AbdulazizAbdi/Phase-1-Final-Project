@@ -2,9 +2,9 @@
 
 ## Description. ##
 
-This repisotory contains the files to the movie review site for the phase 1 final project. The movie review site is a page where you upload a movie you like and reviewed while providing all the information abou the movie and your thoughts. The userd of the site then read your reviews and like the posts they see.
+This repisotory contains the files to the movie review site for the phase 1 final project. The movie review site is a page where you upload a movie you like and reviewed while providing all the information about the movie and your thoughts. The users of the site then read your reviews and like the posts they see.
 
-The movie review site is a single page application that uses JSON to emulate the back-end server and store the database used for this web page. The site is built with html, styled using css and given functionality by Javascript.
+The movie review site is a single page application that uses JSON to emulate the back-end server and store the database used for this web page. The site is built with html, styled using CSS and given functionality by Javascript.
 
 The files in this repository are described above (The assets folder holds the sites Logo image).
 
@@ -31,7 +31,7 @@ Run this command to get the backend started:
 
  [http://localhost:3000/movies](http://localhost:3000/movies)
 
- After you have started the backend and have checked the server is up and running you should open from your terminal the `index.html` to start running the single application page.
+ After you have started the backend and have checked the server is up and running you should open from your terminal the `index.html` to start running the single application page. Now you can use the page and test its functionalities.
 
 
 
