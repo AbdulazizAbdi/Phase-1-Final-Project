@@ -20,7 +20,7 @@ The repository constains the following files to use the page:
 
 ### Setup. ###
 
-To use the movie reviews page, after you fork and clone it into your own local environment then use **code .** to open it in your VScode.
+To use the movie reviews page, after you fork and clone it into your own local environment then use `code .` to open it in your VScode.
 Run this command to get the backend started:
 
 ```sh
