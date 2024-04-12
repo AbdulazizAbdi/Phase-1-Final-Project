@@ -96,17 +96,73 @@ function RenderMovies(movieObj) {
 
         reviewCardContainer.appendChild(reviewCard)
 
+        movieTitle.addEventListener('mouseover', showMovieInfo)
+        movieTitle.addEventListener('mouseout', hideTooltip);
+
+        function showMovieInfo(event) {
+            tooltip = document.createElement('div');
+            tooltip.className = 'tooltip';
+            tooltip.innerHTML = `Movie Runtime: ${movie.runtime} mins<br>Movie Age Rating: PG${movie.ageCap}`
+            document.body.appendChild(tooltip);
+
+            tooltip.style.left = event.pageX + 'px';
+            tooltip.style.top = event.pageY + 'px';
+        }
+
+        let tooltip = true;
+
+        function hideTooltip() {
+            if (tooltip) {
+                tooltip.remove();
+                tooltip = null;
+            }
+        }
+
         likeButton.addEventListener('click', () => {
             movie.likes++;
             movieLikes.textContent = `${movie.likes} Likes`;
-    
           });
-    })
-
-    movieTitle.addEventListener('mouseover', moveiInfo)
-
-    function moveiInfo() {
         
-    }
+    })
+}
 
+function addNewMovie(movieObj){
+    fetch('http://localhost:3000/movies', {
+      method : 'POST',
+  
+      headers : {
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+      },
+  
+      body : JSON.stringify(movieObj)
+    })
+    .then(response => response.json())
+    .then(movieData => console.log(movieData))
+
+  }
+
+
+const addMovieForm = document.querySelector('.add-review-form');
+addMovieForm.addEventListener('submit', handleSubmitForm);
+
+function handleSubmitForm(event) {
+    event.preventDefault()
+
+    let movieObj = {
+        title: event.target['movie-title'].value,
+        poster: event.target['movie-poster'].value,
+        rating: event.target['movie-rating'].value,
+        releaseDate: event.target['movie-release-date'].value,
+        director: event.target['movie-director'].value,
+        review: event.target['movie-review'].value,
+        likes: 0,
+        runtime: event.target['movie-runtime'].value,
+        ageCap: event.target['movie-age-rating'].value
+    }
+    console.log(movieObj)
+
+
+    RenderMovies([movieObj]);
+    addNewMovie(movieObj);
 }

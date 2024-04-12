@@ -154,3 +154,12 @@
   background-color: white;
   color: black;
 }
+
+.tooltip {
+  position: absolute;
+  background-color: darkgray;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,64 +1,65 @@
 {
-    "movies": [
-      {
-        "id": 1,
-        "title": "Movie Title",
-        "poster": "https://i.pinimg.com/736x/ba/9f/63/ba9f63c56407f89bf54d35f07ab1efde.jpg",
-        "rating" : 5,
-        "runtime" : 108,
-        "ageCap" : 16,
-        "releaseDate" : "8th February 2009",
-        "director" : "Stephen Spielberg",
-        "review" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat, velit ac euismod elementum, quam purus aliquet lacus, ac molestie mauris libero nec nisi. Fusce vitae est vitae velit fringilla vehicula non id justo. In hac habitasse platea dictumst. Sed vitae consectetur elit, id eleifend nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer dapibus leo vel commodo vestibulum. Cras tincidunt mi id orci consectetur, sit amet vestibulum mauris ultricies. Nullam vel magna ultrices, laoreet velit sed, auctor velit. Duis a justo a leo consequat pharetra at non tortor. Donec a tellus non felis pellentesque euismod. Vivamus eget quam non libero vestibulum congue. Praesent ac ultricies turpis. Fusce pharetra, nunc vitae vestibulum congue, sem dui efficitur ligula, id blandit est arcu in lacus. Vivamus nec lectus velit.",
-        "likes": 8
-      },
-      {
-        "id": 2,
-        "title": "Movie Title",
-        "poster": "https://i.pinimg.com/736x/ba/9f/63/ba9f63c56407f89bf54d35f07ab1efde.jpg",
-        "rating" : 5,
-        "runtime" : 108,
-        "ageCap" : 16,
-        "releaseDate" : "8th February 2009",
-        "director" : "Stephen Spielberg",
-        "review" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat, velit ac euismod elementum, quam purus aliquet lacus, ac molestie mauris libero nec nisi. Fusce vitae est vitae velit fringilla vehicula non id justo. In hac habitasse platea dictumst. Sed vitae consectetur elit, id eleifend nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer dapibus leo vel commodo vestibulum. Cras tincidunt mi id orci consectetur, sit amet vestibulum mauris ultricies. Nullam vel magna ultrices, laoreet velit sed, auctor velit. Duis a justo a leo consequat pharetra at non tortor. Donec a tellus non felis pellentesque euismod. Vivamus eget quam non libero vestibulum congue. Praesent ac ultricies turpis. Fusce pharetra, nunc vitae vestibulum congue, sem dui efficitur ligula, id blandit est arcu in lacus. Vivamus nec lectus velit.",
-        "likes": 8
-      },
-      {
-        "id": 3,
-        "title": "Movie Title",
-        "poster": "https://i.pinimg.com/736x/ba/9f/63/ba9f63c56407f89bf54d35f07ab1efde.jpg",
-        "rating" : 5,
-        "runtime" : 108,
-        "ageCap" : 16,
-        "releaseDate" : "8th February 2009",
-        "director" : "Stephen Spielberg",
-        "review" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat, velit ac euismod elementum, quam purus aliquet lacus, ac molestie mauris libero nec nisi. Fusce vitae est vitae velit fringilla vehicula non id justo. In hac habitasse platea dictumst. Sed vitae consectetur elit, id eleifend nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer dapibus leo vel commodo vestibulum. Cras tincidunt mi id orci consectetur, sit amet vestibulum mauris ultricies. Nullam vel magna ultrices, laoreet velit sed, auctor velit. Duis a justo a leo consequat pharetra at non tortor. Donec a tellus non felis pellentesque euismod. Vivamus eget quam non libero vestibulum congue. Praesent ac ultricies turpis. Fusce pharetra, nunc vitae vestibulum congue, sem dui efficitur ligula, id blandit est arcu in lacus. Vivamus nec lectus velit.",
-        "likes": 8
-      },
-      {
-        "id": 4,
-        "title": "Movie Title",
-        "poster": "https://i.pinimg.com/736x/ba/9f/63/ba9f63c56407f89bf54d35f07ab1efde.jpg",
-        "rating" : 5,
-        "runtime" : 108,
-        "ageCap" : 16,
-        "releaseDate" : "8th February 2009",
-        "director" : "Stephen Spielberg",
-        "review" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat, velit ac euismod elementum, quam purus aliquet lacus, ac molestie mauris libero nec nisi. Fusce vitae est vitae velit fringilla vehicula non id justo. In hac habitasse platea dictumst. Sed vitae consectetur elit, id eleifend nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer dapibus leo vel commodo vestibulum. Cras tincidunt mi id orci consectetur, sit amet vestibulum mauris ultricies. Nullam vel magna ultrices, laoreet velit sed, auctor velit. Duis a justo a leo consequat pharetra at non tortor. Donec a tellus non felis pellentesque euismod. Vivamus eget quam non libero vestibulum congue. Praesent ac ultricies turpis. Fusce pharetra, nunc vitae vestibulum congue, sem dui efficitur ligula, id blandit est arcu in lacus. Vivamus nec lectus velit.",
-        "likes": 8
-      },
-      {
-        "id": 5,
-        "title": "Movie Title",
-        "poster": "https://i.pinimg.com/736x/ba/9f/63/ba9f63c56407f89bf54d35f07ab1efde.jpg",
-        "rating" : 5,
-        "runtime" : 108,
-        "ageCap" : 16,
-        "releaseDate" : "8th February 2009",
-        "director" : "Stephen Spielberg",
-        "review" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat, velit ac euismod elementum, quam purus aliquet lacus, ac molestie mauris libero nec nisi. Fusce vitae est vitae velit fringilla vehicula non id justo. In hac habitasse platea dictumst. Sed vitae consectetur elit, id eleifend nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer dapibus leo vel commodo vestibulum. Cras tincidunt mi id orci consectetur, sit amet vestibulum mauris ultricies. Nullam vel magna ultrices, laoreet velit sed, auctor velit. Duis a justo a leo consequat pharetra at non tortor. Donec a tellus non felis pellentesque euismod. Vivamus eget quam non libero vestibulum congue. Praesent ac ultricies turpis. Fusce pharetra, nunc vitae vestibulum congue, sem dui efficitur ligula, id blandit est arcu in lacus. Vivamus nec lectus velit.",
-        "likes": 8
-      }
-    ]
-  }
+  "movies": [
+    {
+      "id": 1,
+      "title": "Jaws",
+      "poster": "https://i.pinimg.com/736x/ba/9f/63/ba9f63c56407f89bf54d35f07ab1efde.jpg",
+      "rating": 5,
+      "runtime": 108,
+      "ageCap": 18,
+      "releaseDate": "20th June 1975",
+      "director": "Stephen Spielberg",
+      "review": "Jaws is a timeless masterpiece that continues to captivate audiences with its suspenseful storytelling and groundbreaking filmmaking. Directed by Steven Spielberg and released in 1975, this iconic thriller remains a pinnacle of the genre, setting the standard for creature features to come.Set in the picturesque town of Amity Island, Jaws plunges viewers into the gripping tale of a seaside community terrorized by a massive great white shark. As the summer season approaches, the town's beaches should be bustling with tourists, but fear takes hold as the predator lurks beneath the waves, preying on unsuspecting swimmers. Chief Martin Brody (Roy Scheider), along with a salty shark hunter Quint (Robert Shaw) and a young marine biologist Hooper (Richard Dreyfuss), embarks on a perilous mission to hunt down the deadly creature before more lives are lost.",
+      "likes": 8
+    },
+    {
+      "id": 2,
+      "title": "The Avengers",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWiHrSa6WUe9k06yfbo45goDFLnDNgMBxsjUvh547XXQ&s",
+      "rating": 5,
+      "runtime": 143,
+      "ageCap": 16,
+      "releaseDate": "4th May 2012",
+      "director": "Anthony Russo",
+      "review": "Avengers is a monumental achievement in cinematic storytelling, seamlessly weaving together the narratives of beloved superheroes into a thrilling and cohesive narrative. Directed by Joss Whedon and released in 2012, this superhero ensemble film brings together Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye to form the ultimate team tasked with defending Earth from the nefarious plans of Loki and his alien army. From the electrifying action sequences to the witty banter between characters, Avengers delivers non-stop entertainment while also delving into themes of teamwork, sacrifice, and redemption. With its groundbreaking visual effects, charismatic performances, and expertly crafted plot, Avengers solidified the Marvel Cinematic Universe as a powerhouse franchise, paving the way for future superhero epics and leaving an indelible mark on pop culture history.",
+      "likes": 8
+    },
+    {
+      "id": 3,
+      "title": "Spider-Man: No Way Home",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_FMjpg_UX1000_.jpg",
+      "rating": 5,
+      "runtime": 148,
+      "ageCap": 13,
+      "releaseDate": "17th December 2021",
+      "director": "Kevin Feige",
+      "review": "Spider-Man: No Way Home swings into theaters with an exhilarating blend of heart, humor, and high-stakes action. Directed by Jon Watts and released in 2021, this thrilling installment in the Spider-Man franchise follows Peter Parker as he grapples with the consequences of his identity being revealed and seeks help from Doctor Strange to set things right. What ensues is a mind-bending adventure through the multiverse, as familiar faces from past Spider-Man films collide in a battle against formidable foes. Tom Holland delivers a standout performance as the web-slinging hero, navigating the emotional complexities of his journey with depth and charisma. Supported by an exceptional cast including Zendaya, Jacob Batalon, and Benedict Cumberbatch, Spider-Man: No Way Home delivers on both spectacle and heart, offering fans a nostalgic yet fresh take on the beloved superhero. With its jaw-dropping visual effects, pulse-pounding action sequences, and unexpected twists, Spider-Man: No Way Home is a triumphant celebration of Spider-Man's legacy and a testament to the enduring appeal of the character.",
+      "likes": 8
+    },
+    {
+      "id": 4,
+      "title": "Kill Bill: Volume 1",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzM3NDFhYTAtYmU5Mi00NGRmLTljYjgtMDkyODQ4MjNkMGY2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+      "rating": 5,
+      "runtime": 111,
+      "ageCap": 18,
+      "releaseDate": "10th October 2003",
+      "director": "Quentin Tarantino",
+      "review": "Kill Bill bursts onto the screen with Quentin Tarantino's signature style, delivering a visceral and unapologetically bold revenge tale. Released in two volumes in 2003 and 2004, this epic saga follows The Bride, played by Uma Thurman, on her quest to exact vengeance against her former allies in the Deadly Viper Assassination Squad. Tarantino's kinetic direction and razor-sharp dialogue propel the narrative forward, while Thurman's powerhouse performance anchors the film with ferocity and determination. From the stunning choreography of its martial arts sequences to the eclectic soundtrack that infuses each scene with energy, Kill Bill is a tour de force of genre-bending cinema. With its unforgettable characters, stylish visuals, and unrelenting action, Kill Bill solidifies its place as a modern classic and a testament to Tarantino's unparalleled storytelling prowess.",
+      "likes": 8
+    },
+    {
+      "id": 5,
+      "title": "The Maze Runner",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjUyNTA3MTAyM15BMl5BanBnXkFtZTgwOTEyMTkyMjE@._V1_FMjpg_UX1000_.jpg",
+      "rating": 5,
+      "runtime": 113,
+      "ageCap": 16,
+      "releaseDate": "19 September 2014",
+      "director": "Wes Ball",
+      "review": "Maze Runner dashes onto the screen with pulse-pounding intensity, immersing audiences in a thrilling dystopian adventure. Released in 2014, this adaptation of James Dashner's novel follows Thomas, played by Dylan O'Brien, as he awakens in a mysterious maze with no memory of his past. As Thomas and his fellow Gladers navigate the treacherous labyrinth, they uncover dark secrets about their world and their true purpose. Director Wes Ball crafts a gripping narrative that keeps viewers on the edge of their seats, blending heart-stopping action with moments of genuine emotion. O'Brien delivers a compelling performance, anchoring the film with his determination and resilience. With its innovative premise, immersive world-building, and nail-biting suspense, Maze Runner delivers an adrenaline-fueled ride that leaves audiences eagerly anticipating the next twist in the maze.",
+      "likes": 8
+    }
+
+  ]
+}
